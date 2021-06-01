@@ -58,9 +58,12 @@ export default function Section2() {
                 <img src={profile} />
                 <div className="profile-text">
                     I’m a frontend developr at DolphinSoft based in Netanya, Israel. Also a husband and father, an amature videographer and editor.
-                <div className="cv-btn">
+                    <a href='./bar_cv.pdf'>
+                    <div  className="cv-btn">
                         Download resume
             </div>
+                    </a>
+
                 </div>
             </div>
             </InView>
