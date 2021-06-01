@@ -1,0 +1,18 @@
+<svg width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="56" cy="56" r="56" fill="#1E3549"/>
+<path d="M22.625 37.25V65.375C22.625 67.4375 24.3125 69.125 26.375 69.125H67.625C69.6875 69.125 71.375 67.4375 71.375 65.375V37.25C71.375 35.1875 69.6875 33.5 67.625 33.5H26.375C24.3125 33.5 22.625 35.1875 22.625 37.25Z" stroke="#FEFEFE" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.625 61.625H71.375" stroke="#FEFEFE" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33.875 80.375H60.125" stroke="#FEFEFE" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M41.3749 69.125C41.3749 73.0625 40.0624 77.75 37.9999 80.375" stroke="#FEFEFE" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M56 80.375C53.9375 77.75 52.625 73.0625 52.625 69.125" stroke="#FEFEFE" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<g clip-path="url(#clip0)">
+<path d="M88.125 76.375H71.875" stroke="#FEFEFE" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M80 77.9375C79.8146 77.9375 79.6333 77.9925 79.4792 78.0955C79.325 78.1985 79.2048 78.3449 79.1339 78.5162C79.0629 78.6875 79.0443 78.876 79.0805 79.0579C79.1167 79.2398 79.206 79.4068 79.3371 79.5379C79.4682 79.669 79.6352 79.7583 79.8171 79.7945C79.999 79.8307 80.1875 79.8121 80.3588 79.7411C80.5301 79.6702 80.6765 79.55 80.7795 79.3958C80.8825 79.2417 80.9375 79.0604 80.9375 78.875C80.9377 78.7518 80.9135 78.6299 80.8665 78.516C80.8194 78.4022 80.7504 78.2988 80.6633 78.2117C80.5762 78.1246 80.4728 78.0556 80.359 78.0085C80.2451 77.9615 80.1232 77.9373 80 77.9375Z" fill="#FEFEFE"/>
+<path d="M85.625 52.625H74.375C72.9943 52.625 71.875 53.7443 71.875 55.125V78.875C71.875 80.2557 72.9943 81.375 74.375 81.375H85.625C87.0057 81.375 88.125 80.2557 88.125 78.875V55.125C88.125 53.7443 87.0057 52.625 85.625 52.625Z" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="30" height="30" fill="white" transform="translate(65 52)"/>
+</clipPath>
+</defs>
+</svg>

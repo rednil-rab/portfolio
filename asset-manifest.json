@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.64606dcb.chunk.css",
+    "main.js": "/portfolio/static/js/main.a2de8e6b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a2de8e6b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.fff84b5a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fff84b5a.js.map",
+    "static/js/2.f898cb2e.chunk.js": "/portfolio/static/js/2.f898cb2e.chunk.js",
+    "static/js/2.f898cb2e.chunk.js.map": "/portfolio/static/js/2.f898cb2e.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.64606dcb.chunk.css.map": "/portfolio/static/css/main.64606dcb.chunk.css.map",
+    "static/js/2.f898cb2e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f898cb2e.chunk.js.LICENSE.txt",
+    "static/media/avatar.7d10afa8.svg": "/portfolio/static/media/avatar.7d10afa8.svg",
+    "static/media/background.f89fdc17.jpeg": "/portfolio/static/media/background.f89fdc17.jpeg",
+    "static/media/backgroundmob.e0921c9a.svg": "/portfolio/static/media/backgroundmob.e0921c9a.svg",
+    "static/media/bio.2eca0847.png": "/portfolio/static/media/bio.2eca0847.png",
+    "static/media/c-eoy.420dbd6f.png": "/portfolio/static/media/c-eoy.420dbd6f.png",
+    "static/media/cellcom.929a1f19.png": "/portfolio/static/media/cellcom.929a1f19.png",
+    "static/media/i-tt.63659171.png": "/portfolio/static/media/i-tt.63659171.png",
+    "static/media/interactive.7870e505.svg": "/portfolio/static/media/interactive.7870e505.svg",
+    "static/media/isracard.dc901274.png": "/portfolio/static/media/isracard.dc901274.png",
+    "static/media/market.e6e47ea3.png": "/portfolio/static/media/market.e6e47ea3.png",
+    "static/media/menora.a8a4c731.png": "/portfolio/static/media/menora.a8a4c731.png",
+    "static/media/profile.3f720ad4.svg": "/portfolio/static/media/profile.3f720ad4.svg",
+    "static/media/responsive.960a8788.svg": "/portfolio/static/media/responsive.960a8788.svg",
+    "static/media/searchLight.c464f03e.svg": "/portfolio/static/media/searchLight.c464f03e.svg",
+    "static/media/searchLightmob.226afd80.svg": "/portfolio/static/media/searchLightmob.226afd80.svg",
+    "static/media/shape.c71806aa.svg": "/portfolio/static/media/shape.c71806aa.svg",
+    "static/media/shapemob.82cc5cb7.svg": "/portfolio/static/media/shapemob.82cc5cb7.svg",
+    "static/media/speed.b3e70cee.svg": "/portfolio/static/media/speed.b3e70cee.svg",
+    "static/media/susu.c9a3f7b4.png": "/portfolio/static/media/susu.c9a3f7b4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fff84b5a.js",
+    "static/js/2.f898cb2e.chunk.js",
+    "static/css/main.64606dcb.chunk.css",
+    "static/js/main.a2de8e6b.chunk.js"
+  ]
+}
