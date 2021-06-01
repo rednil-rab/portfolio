@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.nav-bar{
+    /* trigger an animation when scripts updates CSS*/
+    top:calc(100% - 5vh);/* cause scripts gives top:0 and erase bottom */
+    height: 5vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0E2539;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    align-items: center;
+    border-bottom: solid 3px #C1D86B;
+    font-family: Roboto, sans-serif;
+  }
+  .selectd {
+    color: #C1D86B;
+  }
+  .nav-bar div {
+    width: 10%;
+  }
+
+  .nav-bar div h2 {
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .nav-bar {
+      justify-content: space-evenly;
+    }
+    .nav-bar div {
+      width: 20%;
+    }
+    .nav-bar h2 {
+      font-size: 5vw;
+      text-align: center;
+    }
+  }
+
+  

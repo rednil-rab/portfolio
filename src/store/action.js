@@ -1,0 +1,1 @@
+export const SET_VISIBLE_PAGE = 'SET_VISIBLE_PAGE';

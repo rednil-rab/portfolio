@@ -1,0 +1,53 @@
+.work-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.work-grid .work-item{
+    width: 40vw;
+    height: 20vw;
+    background-size: 100% 100%;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+
+.project-div {
+display: flex;
+flex-direction: column;
+height:fit-content;
+height: 25vw;
+}
+
+.project-div h2{
+    position: relative;
+    font-weight: 300;
+    align-self: flex-start;
+    margin-left: 5vw;
+    margin-top: 0vw;
+
+}
+
+@media screen and (max-width: 900px) {
+    .work-grid {
+        display: flex;
+        flex-direction: column;
+    }
+        .work-grid .work-item {
+            width: 80vw;
+            height: 40vw;
+        }
+    .project-div {
+        height: 55vw;
+    }
+    .project-div h2{
+        font-size: 5vw;
+        margin-left: 10vw;
+    }
+ }
