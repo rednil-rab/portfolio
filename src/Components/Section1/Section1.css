@@ -117,6 +117,8 @@
     .cone {
         right: -3%;
         bottom: 10%;
+        width: 67vw;
+    height: 100vh;
     }
     .column-div img {
         left: 38%;
