@@ -98,6 +98,10 @@
     }
     .profile-container {
         flex-direction: column;
+        align-items: center;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
     }
     .profile-container img {
         width: 65%;
@@ -107,7 +111,10 @@
         font-size: 4vw;
     }
     .cv-btn {
-        width: 50%;
+        width: 100%;
+        padding: 10%;
+        position: relative;
+        right: 15%;
     }
     .client-grid {
         grid-template-columns: 1fr 1fr;
