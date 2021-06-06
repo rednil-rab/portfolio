@@ -45,12 +45,13 @@ export default function Section2() {
                 <div className="img-div">
                     <img src={responsive}></img>
                     <h2>Responsive</h2>
-                    <p>Websites don't have to be static, I <br></br>love making pages come to life.</p>
+                    <p>My layouts will work on any <br></br>device, big or small.</p>
+                    
                 </div>
                 <div className="img-div">
                     <img src={speed}></img>
                     <h2>interactive</h2>
-                    <p>Websites don't have to be static, I <br></br>love making pages come to life.</p>
+                    <p>Fast load times and lag free <br></br>interaction, my highest priority.</p>
                 </div>
             </div>
             <InView inView={inView} onChange={() => handleChange(this)}>
