@@ -49,9 +49,9 @@ return (
 
         </div>
         <div className="column-div">
-            <img src={BarAvatar}></img>
+            
             <div style={{backgroundImage: dimensions.width < 900 ? `url(${searchLightMob})` : `url(${searchLight})`}} className="cone">
-
+            <img src={BarAvatar}></img>
 
 
             </div>

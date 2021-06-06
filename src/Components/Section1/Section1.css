@@ -29,10 +29,11 @@
     position: absolute;
     z-index: 99;
     align-self: flex-start;
-    object-fit: contain;
+    object-fit: cover;
     width: 30%;
-    left: 12%;
-    bottom: 53%;
+    width: 30%;
+    left: 8vw;
+    top: 2vw;
     opacity: 0;
     animation: fadeIn 1.5s ease;
     animation-delay: 3s;
@@ -116,12 +117,13 @@
      }
     .cone {
         right: -3%;
-        bottom: 10%;
+        bottom: -3%;
         width: 67vw;
-    height: 100vh;
+        height: 69vh;
     }
     .column-div img {
-        left: 38%;
-        top: 8%;
+        left: 24%;
+        top: 4%;
+        width: 50%;
     }
   }
