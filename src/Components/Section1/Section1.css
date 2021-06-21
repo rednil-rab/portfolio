@@ -111,8 +111,10 @@
          width: 100%;
      }
      .column-div h1 {
-         align-self: unset;
-         font-size: 10vw;
+        align-self: center;
+        font-size: 10vw;
+        margin-left: unset;
+        margin-top: 10vw;
      }
      .column-div span {
         font-size: 16vw;
@@ -120,9 +122,8 @@
     .cone {
         right: 18%;
         bottom: 0;
-        width: 46vw;
-        height: 100vw;
-        position: absolute;
+        width: 58vw;
+        height: 127vw;
     }
     .column-div img {
         left: 24%;

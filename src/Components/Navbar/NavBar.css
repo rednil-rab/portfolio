@@ -15,6 +15,7 @@
     align-items: center;
     border-bottom: solid 3px #C1D86B;
     font-family: Roboto, sans-serif;
+    z-index: 9;
   }
   .selectd {
     color: #C1D86B;
