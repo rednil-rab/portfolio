@@ -32,8 +32,8 @@
     object-fit: cover;
     width: 30%;
     width: 30%;
-    left: 8vw;
-    top: 2vw;
+    left: 6vw;
+    top: 3vw;
     opacity: 0;
     animation: fadeIn 1.5s ease;
     animation-delay: 3s;
@@ -41,15 +41,17 @@
 }
 .column-div h1 {
     font-weight: 400;
-   align-self: flex-end;
-   margin-top: 10vh;
-   animation: fadeIn 1.5s ease;
-   animation-delay: 3s;
-   opacity: 0;
-   animation-fill-mode: forwards;
+    align-self: flex-end;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    animation: fadeIn 1.5s ease;
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    font-size: 3.7vw;
 }
 .column-div span {
-    font-size: 5vw;
+    font-size: 6vw;
     /* font-family: Roboto; */
     
     font-weight: 400;
@@ -60,12 +62,12 @@
 }
 
 .cone {
-    position: relative;
-    bottom: -10%;
-    right: 5%;
+    position: absolute;
+    bottom: -5%;
+    right: 16%;
     animation: hingeAni 3s linear;
-    width: 50vw;
-    height: 92vh;
+    width: 39vw;
+    height: 49vw;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -116,10 +118,11 @@
         font-size: 16vw;
      }
     .cone {
-        right: -3%;
-        bottom: -3%;
-        width: 67vw;
-        height: 69vh;
+        right: 18%;
+        bottom: 0;
+        width: 46vw;
+        height: 100vw;
+        position: absolute;
     }
     .column-div img {
         left: 24%;
