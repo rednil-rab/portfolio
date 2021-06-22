@@ -7,6 +7,12 @@ const initialState = {
         about: false,
         projects: false,
         contact: false
+    },
+    height: {
+        home: null,
+        about: null,
+        projects: null,
+        contact: null
     }
 }
 
@@ -38,6 +44,26 @@ const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 menu: tempMenu
+            }
+        case actionTypes.SET_SECTION_HEIGHT:
+            let tempHeight = state.height;
+            switch (action.section) {
+                case 'home':
+                    tempHeight.home = action.value;
+                    break;
+                case 'about':
+                    tempHeight.about = action.value;
+                    break;
+                case 'projects':
+                    tempHeight.projects = action.value;
+                    break;
+                case 'contact':
+                    tempHeight.contact = action.value;
+                    break;
+            }
+            return {
+                ...state,
+                menu: tempHeight
             }
         default:
             return state;

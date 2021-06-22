@@ -1,8 +1,9 @@
-import React, { useRef } from 'react';
+import React, {useCallback} from 'react';
 import './Section2.css';
 
 import { useDispatch } from 'react-redux';
-import * as actionTypes from '../../store/action'
+import * as actionTypes from '../../store/action';
+
 ////images////
 import interactive from './images/interactive.svg';
 import responsive from './images/responsive.svg';
@@ -14,26 +15,25 @@ import isracard from './images/isracard.png';
 import bhol from './images/bhol.png';
 import susu from './images/susu.png';
 import bio from './images/bio.png';
-import debounce from 'lodash.debounce';
-import { InView, useInView } from 'react-intersection-observer';
+
 
 export default function Section2() {
     const dispatch = useDispatch();
-    const [ref, inView] = useInView({
-        threshold: 0,
-    })
 
-    const handleChange = (element) => {
-        if (inView) {
-            dispatch({ type: actionTypes.SET_VISIBLE_PAGE, value: 'about' })
-        } else {
-            return
+    const div = useCallback(node => {
+        function handleResize() {
+            if (node !== null) {
+                console.log(node.getBoundingClientRect().height);
+                dispatch({ type: actionTypes.SET_SECTION_HEIGHT, value: node.getBoundingClientRect().height, section: 'about' })
+            }
+
         }
-
-
-    }
+        window.addEventListener("resize", handleResize)
+        handleResize();
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
     return (
-        <div className="content-section">
+        <div ref={div} className="content-section">
             <h1>ABOUT</h1>
             <div className="img-container">
 
@@ -56,9 +56,10 @@ export default function Section2() {
                     {/* <p>Fast load times and lag free <br></br>interaction, my highest priority.</p> */}
                     <p>Lag free fast loads, I care about interaction</p>
                 </div>
+
             </div>
-            <InView inView={inView} onChange={() => handleChange(this)}>
-            <div id="about" ref={ref} className="profile-container">
+            
+            <div id="about"  className="profile-container">
                 <img src={profile} />
                 <div className="profile-text">
                     I’m a frontend developr at DolphinSoft based in Netanya, Israel. Also a husband and father, an amature videographer and editor.
@@ -70,7 +71,7 @@ export default function Section2() {
 
                 </div>
             </div>
-            </InView>
+            
 
             <div className="profile-text center">
                 here are some of the companies i've worked with:
