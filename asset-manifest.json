@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9b93f838.chunk.css",
-    "main.js": "/portfolio/static/js/main.34ea9939.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.34ea9939.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.2bee03d7.chunk.css",
+    "main.js": "/portfolio/static/js/main.7bee7dd2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7bee7dd2.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.fff84b5a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.fff84b5a.js.map",
     "static/js/2.4425f39c.chunk.js": "/portfolio/static/js/2.4425f39c.chunk.js",
     "static/js/2.4425f39c.chunk.js.map": "/portfolio/static/js/2.4425f39c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.9b93f838.chunk.css.map": "/portfolio/static/css/main.9b93f838.chunk.css.map",
+    "static/css/main.2bee03d7.chunk.css.map": "/portfolio/static/css/main.2bee03d7.chunk.css.map",
     "static/js/2.4425f39c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4425f39c.chunk.js.LICENSE.txt",
     "static/media/avatar.7d10afa8.svg": "/portfolio/static/media/avatar.7d10afa8.svg",
     "static/media/background.f89fdc17.jpeg": "/portfolio/static/media/background.f89fdc17.jpeg",
     "static/media/backgroundmob.e0921c9a.svg": "/portfolio/static/media/backgroundmob.e0921c9a.svg",
-    "static/media/bio.2eca0847.png": "/portfolio/static/media/bio.2eca0847.png",
+    "static/media/bhol.7d3f4506.png": "/portfolio/static/media/bhol.7d3f4506.png",
+    "static/media/bio.b7f2e3ac.png": "/portfolio/static/media/bio.b7f2e3ac.png",
     "static/media/c-eoy.420dbd6f.png": "/portfolio/static/media/c-eoy.420dbd6f.png",
-    "static/media/cellcom.929a1f19.png": "/portfolio/static/media/cellcom.929a1f19.png",
+    "static/media/cellcom.1869b561.png": "/portfolio/static/media/cellcom.1869b561.png",
     "static/media/i-tt.63659171.png": "/portfolio/static/media/i-tt.63659171.png",
     "static/media/interactive.7870e505.svg": "/portfolio/static/media/interactive.7870e505.svg",
-    "static/media/isracard.dc901274.png": "/portfolio/static/media/isracard.dc901274.png",
+    "static/media/isracard.1a754472.png": "/portfolio/static/media/isracard.1a754472.png",
     "static/media/market.e6e47ea3.png": "/portfolio/static/media/market.e6e47ea3.png",
-    "static/media/menora.a8a4c731.png": "/portfolio/static/media/menora.a8a4c731.png",
+    "static/media/menora.8262d2ee.png": "/portfolio/static/media/menora.8262d2ee.png",
     "static/media/profile.3f720ad4.svg": "/portfolio/static/media/profile.3f720ad4.svg",
     "static/media/responsive.960a8788.svg": "/portfolio/static/media/responsive.960a8788.svg",
     "static/media/searchLight.c464f03e.svg": "/portfolio/static/media/searchLight.c464f03e.svg",
@@ -33,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.fff84b5a.js",
     "static/js/2.4425f39c.chunk.js",
-    "static/css/main.9b93f838.chunk.css",
-    "static/js/main.34ea9939.chunk.js"
+    "static/css/main.2bee03d7.chunk.css",
+    "static/js/main.7bee7dd2.chunk.js"
   ]
 }
