@@ -72,8 +72,8 @@
 
 .client-grid img {
     object-fit: contain;
-    width: 20vw;
-    height: 10vw;
+    width: 13vw;
+    height: 7vw;
     justify-self: center;
     margin-bottom: 5vw;
 }
@@ -137,7 +137,7 @@
         row-gap: 10vw;;
     }
     .client-grid img {
-        width: 40vw;
-        height: 20vw;
+        width: 24vw;
+        height: 15vw;
     }
  }
