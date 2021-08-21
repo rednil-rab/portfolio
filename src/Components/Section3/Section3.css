@@ -7,10 +7,13 @@
 .work-grid .work-item{
     width: 40vw;
     height: 20vw;
-    background-size: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     justify-self: center;
     align-self: center;
     cursor: pointer;
+    margin: 2%;
 }
 
 h1 {
@@ -30,7 +33,11 @@ height: 25vw;
     font-weight: 300;
     align-self: flex-start;
     margin-left: 5vw;
-    margin-top: 0vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
 
 }
 
